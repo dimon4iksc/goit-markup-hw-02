@@ -74,39 +74,61 @@ body {
 
 .main {
 }
-.title-fon {
+
+.contacts {
 }
-.title-text {
-    font-weight: 600;
-    font-size: 56px;
-    line-height: 0.93;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
+
+.contacts-list {
 }
-.title-button {
+
+.contacts-item {
+}
+
+.contacts-button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 0.84;
+    line-height: 1.5;
     display: flex;
     align-items: center;
+    text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: #4D5AE5;
+
+
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
     cursor: pointer;
 }
 
-.story {
+.contacts-button:hover{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
-.story-list {
+.beginning {
 }
 
-.story-item {
+.beginning-list {
 }
 
-.story-title {
+.beginning-item {
+}
+
+.beginning-text {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -114,7 +136,7 @@ body {
     color: #2E2F42;
 }
 
-.story-text {
+.beginning-after {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -122,43 +144,24 @@ body {
     color: #434455;
 }
 
-.work {
-}
-
-.work-title {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.11;
+.beginning-img-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
+    color: #F4F4FD;
 }
 
-.work-list {
+.middle {
 }
 
-.work-item {
+.middle-list {
 }
 
-.people {
+.middle-item {
 }
 
-.people-title {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
-}
-
-.people-list {
-}
-
-.people-item {
-}
-
-.people-name {
+.middle-text {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -166,7 +169,32 @@ body {
     color: #2E2F42;
 }
 
-.people-special {
+.middle-after {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.end {
+}
+
+.end-list {
+}
+
+.end-item {
+}
+
+.end-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.end-after {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
