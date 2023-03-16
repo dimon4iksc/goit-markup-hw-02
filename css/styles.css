@@ -52,7 +52,7 @@ body {
 .header-link {
     font-weight: 600;
     font-size: 16px;
-    line-height: 0.66;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -60,7 +60,7 @@ body {
 .header-mail {
     font-weight: 400;
     font-size: 16px;
-    line-height: 0.66;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -68,7 +68,7 @@ body {
 .header-tel {
     font-weight: 400;
     font-size: 16px;
-    line-height: 0.66;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -80,7 +80,7 @@ body {
 .title-text {
     font-weight: 600;
     font-size: 56px;
-    line-height: 0.93;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -183,7 +183,7 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 0.75;
+    line-height: 1.16;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -196,7 +196,7 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.16;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
