@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    background: #FFFFFF;
 }
 
 .list{
@@ -75,8 +75,11 @@ body {
 
 .main {
 }
+
 .title-fon {
+    background: #2E2F42;
 }
+
 .title-text {
     font-weight: 600;
     font-size: 56px;
@@ -85,6 +88,7 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
+
 .title-button {
     font-family: 'Roboto';
     font-style: normal;
@@ -102,6 +106,7 @@ body {
 }
 
 .story-list {
+    display: flex;
 }
 
 .story-item {
@@ -136,12 +141,19 @@ body {
 }
 
 .work-list {
+    display: flex;
 }
 
 .work-item {
 }
 
 .people {
+    position: absolute;
+    width: 1440px;
+    height: 732px;
+    left: 0px;
+    top: 1551px;
+    background: #F4F4FD;
 }
 
 .people-title {
@@ -154,6 +166,7 @@ body {
 }
 
 .people-list {
+    display: flex;
 }
 
 .people-item {
@@ -176,6 +189,12 @@ body {
 }
 
 .footer {
+    position: absolute;
+    width: 1440px;
+    height: 310px;
+    left: 0px;
+    top: 2283px;
+    background: #2E2F42;
 }
 
 .footer-web {
